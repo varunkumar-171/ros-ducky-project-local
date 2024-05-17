@@ -13,7 +13,8 @@ dt-launchfile-init
 # NOTE: Use `dt-exec COMMAND` to run the main process (blocking process)
 
 # launching app
-dt-exec echo "Default launcher"
+dt-exec echo "Launching custom subscriber......"
+rosrun custom_package subscriber_node.py
 
 
 # ----------------------------------------------------------------------------
